@@ -21,7 +21,6 @@ sheet-key:
 
 db-headers:
   cievs:
-    - amostra_id
     - codigo_lacen
     - semana_epidemiologica
     - codigo_ufsc
@@ -51,7 +50,6 @@ db-headers:
     - nucleotides_n
     - percentage_n
   gisaid:
-    - gisaid_id
     - submitter
     - fn
     - covv_virus_name
