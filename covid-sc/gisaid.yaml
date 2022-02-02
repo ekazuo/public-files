@@ -1,0 +1,76 @@
+################################################
+###   CONFIGURATION FILE FOR GISAID PARSER   ###
+################################################
+
+# A AVENTURA VAI COMEÇAR -------------------------------------------------------
+
+gisaid-order:
+  - submitter
+  - fn
+  - covv_virus_name          # hCoV-19/Brazil/SC-UFSC-{47/2021}
+  - covv_type
+  - covv_passage
+  - covv_collection_date     # {Data_Coleta}
+  - covv_location            # South America / Brazil / Santa Catarina / {Municipio_Residencia}
+  - covv_add_location
+  - covv_host
+  - covv_add_host_info
+  - covv_sampling_strategy
+  - covv_gender              # {Sexo}
+  - covv_patient_age         # {Idade_Anos}
+  - covv_patient_status
+  - covv_specimen
+  - covv_outbreak
+  - covv_last_vaccinated
+  - covv_treatment
+  - covv_seq_technology
+  - covv_assembly_method
+  - covv_coverage            # {Profundidade_Media}
+  - covv_orig_lab            # {Lab_Cadastro}
+  - covv_orig_lab_addr
+  - covv_provider_sample_id
+  - covv_subm_lab
+  - covv_subm_lab_addr
+  - covv_subm_sample_id
+  - covv_authors
+  - covv_comment
+  - comment_type
+
+gisaid-out:
+  submitter: gwagner_ufsc
+  covv_type: betacoronavirus
+  covv_passage: Original
+  covv_location: South America / Brazil / Santa Catarina /
+  covv_host: Human
+  covv_patient_status: unknown
+  covv_seq_technology: Illumina MiSeq
+  covv_assembly_method: BWA/SAMtools/iVar
+  covv_subm_lab: Laboratório de Bioinformática - Universidade Federal de Santa Catarina
+  covv_subm_lab_addr: >-
+    Centro de Ciências Biológicas (CCB) -
+    UFSC -
+    Setor F, Bloco A, Trindade, Florianópolis, SC, Brazil, 88040-1238
+  covv_orig_lab_addr: >-
+    Laboratório Central de Saúde Pública do Estado de Santa Catarina (LACEN/SC) -
+    R. Felipe Schmidt, 788 - Centro, Florianópolis - Santa Catarina, Brazil, 88010-002
+  covv_authors:
+    - Glauber Wagner
+    - Juliana Righetto Moser
+    - Eric Kazuo Kawagoe
+    - Milene Moehr de Moraes
+    - Vilmar Benetti Filho
+    - Dayane Azevedo Padilha
+    - Fernando Hartmann Barazzetti
+    - Marcos André Schörner
+    - Doris Sobral Marques Souza
+    - Ariane Nicaretta Amorim
+    - Darcita Buerger Rovaris
+    - Sandra Bianchini Fernandes
+    - Marlei Pickler Debiasi dos Anjos
+    - Fernanda Rosene Melo
+    - João Augusto Brancher Fuck
+    - Alexandra Crispim Boing
+    - Maria Luiza Bazzo
+    - Luiz Felipe Valter de Oliveira
+    - Gislaine Fongaro
+    - on behalf of the Santa Catarina COVID-19 Genomic Surveillance Network (Genoma COVID SC)
