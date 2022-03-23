@@ -100,15 +100,24 @@ db-headers:
     - total_frameshifts
     - total_aminoacid_substitutions
     - total_aminoacid_deletions
+    - total_aminoacid_insertions
     - total_missing
     - total_non_actgns
     - total_pcr_primer_changes
     - substitutions
     - deletions
     - insertions
+    - private_nuc_mutations_reversion_substitutions
+    - private_nuc_mutations_labeled_substitutions
+    - private_nuc_mutations_unlabeled_substitutions
+    - private_nuc_mutations_total_reversion_substitutions
+    - private_nuc_mutations_total_labeled_substitutions
+    - private_nuc_mutations_total_unlabeled_substitutions
+    - private_nuc_mutations_total_private_substitutions
     - frameshifts
     - aa_substitutions
     - aa_deletions
+    - aa_insertions
     - missing
     - non_actgns
     - pcr_primer_changes
