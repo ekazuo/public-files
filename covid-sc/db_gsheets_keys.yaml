@@ -93,6 +93,7 @@ db-headers:
   nextclade:
     - codigo_ufsc
     - clade
+    - nextclade_pango
     - qc_overallscore
     - qc_overallstatus
     - total_substitutions
