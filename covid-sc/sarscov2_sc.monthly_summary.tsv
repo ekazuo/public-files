@@ -1,0 +1,9 @@
+ano_mes	amostras_totais	amostras_sequenciadas	baixa_qualidade	nao_amplificadas	linhagem_classificada	variantes_identificadas
+2021-10	425	425	8	0	417	Gama, Delta
+2021-11	488	458	3	1	454	Delta
+2021-12	484	427	6	1	420	Delta, Omicron
+2022-01	473	420	5	3	412	Delta, Omicron
+2022-02	182	157	0	0	157	Omicron
+2022-03	351	332	15	1	316	Omicron
+2022-04	21	20	0	0	20	Omicron
+	2424	2239	37	6	2196	
