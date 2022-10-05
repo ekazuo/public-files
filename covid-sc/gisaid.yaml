@@ -7,17 +7,17 @@
 gisaid-order:
   - submitter
   - fn
-  - covv_virus_name          # hCoV-19/Brazil/SC-UFSC-{47/2021}
+  - covv_virus_name # hCoV-19/Brazil/SC-UFSC-{47/2021}
   - covv_type
   - covv_passage
-  - covv_collection_date     # {Data_Coleta}
-  - covv_location            # South America / Brazil / Santa Catarina / {Municipio_Residencia}
+  - covv_collection_date # {Data_Coleta}
+  - covv_location # South America / Brazil / Santa Catarina / {Municipio_Residencia}
   - covv_add_location
   - covv_host
   - covv_add_host_info
   - covv_sampling_strategy
-  - covv_gender              # {Sexo}
-  - covv_patient_age         # {Idade_Anos}
+  - covv_gender # {Sexo}
+  - covv_patient_age # {Idade_Anos}
   - covv_patient_status
   - covv_specimen
   - covv_outbreak
@@ -25,8 +25,8 @@ gisaid-order:
   - covv_treatment
   - covv_seq_technology
   - covv_assembly_method
-  - covv_coverage            # {Profundidade_Media}
-  - covv_orig_lab            # {Lab_Cadastro}
+  - covv_coverage # {Profundidade_Media}
+  - covv_orig_lab # {Lab_Cadastro}
   - covv_orig_lab_addr
   - covv_provider_sample_id
   - covv_subm_lab
